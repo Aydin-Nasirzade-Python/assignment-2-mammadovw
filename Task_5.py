@@ -3,7 +3,7 @@
 def main():
   month = input("Enter a month [ex. March]: ")
   day = int(input("Enter the day [ex. 12]: "))
-  if x <= 0 or x > 31 :
+  if day <= 0 or day > 31 :
       print ("Either a month or a day is invalid!")
   elif (month == "December" and day >= 22) or (month == "January" and day <= 19) :
       print ("Your zodiac sign is Capricorn")
