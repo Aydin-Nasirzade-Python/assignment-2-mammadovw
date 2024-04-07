@@ -11,23 +11,23 @@ def main():
       print("Your zodiac sign is Aquarius")
   elif (month == "February" and 29>=day >= 19) or (month == 'March' and day <= 20) :
       print("Your zodiac sign is Pisces")
-  elif (month == 'March' and day >= 21) or (month == 'April' and day <= 19) :
+  elif (month == "March" and day >= 21) or (month == "April" and day <= 19) :
       print("Your zodiac sign is Aries")
-  elif (month == 'April' and 30>=day >= 20) or (month == 'May' and day <= 20) :
+  elif (month == "April" and 30>=day >= 20) or (month == "May" and day <= 20) :
       print("Your zodiac sign is Taurus")
-  elif (month == 'May' and day >= 21) or (month == 'June' and day <= 20) :
+  elif (month == "May" and day >= 21) or (month == "June" and day <= 20) :
       print("Your zodiac sign is Gemini")
-  elif (month == 'June' and 30>=day >= 21) or (month == 'July' and day <= 22):
+  elif (month == "June" and 30>=day >= 21) or (month == "July" and day <= 22):
       print("Your zodiac sign is Cancer")
-  elif (month == 'July' and day >= 23) or (month == 'August' and day <= 22) :
+  elif (month == "July" and day >= 23) or (month == "August" and day <= 22) :
       print("Your zodiac sign is Leo")
-  elif (month == 'August' and day >= 23) or (month == 'September' and day <= 22) :
+  elif (month == "August" and day >= 23) or (month == "September" and day <= 22) :
       print("Your zodiac sign is Virgo")
-  elif (month == 'September' and 30>=day >= 23) or (month == 'October' and day <= 22) :
+  elif (month == "September" and 30>=day >= 23) or (month == "October" and day <= 22) :
       print("Your zodiac sign is Libra")
-  elif (month == 'October' and day >= 23) or (month == 'November' and day <= 21) :
+  elif (month == "October" and day >= 23) or (month == "November" and day <= 21) :
       print("Your zodiac sign is Scorpion")
-  elif (month == 'November' and 30>=day >= 22) or (month == 'December' and day <= 21) :
+  elif (month == "November" and 30>=day >= 22) or (month == "December" and day <= 21) :
       print( "Your zodiac sign is Sagittarius")
   pass
 
