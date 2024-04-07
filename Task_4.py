@@ -12,7 +12,7 @@ def main():
     print(f"{x} is the year of the Horse")
   elif x == 2003 or (x - 2003) % 12 == 0 :
     print(f"{x} is the year of the Sheep")
-  elif x == 2004 or (x - 2004) % 12 == 0
+  elif x == 2004 or (x - 2004) % 12 == 0 :
     print(f"{x} is the year of the Monkey")
   elif x == 2005 or (x - 2005) % 12 == 0 :
     print(f"{x} is the year of the Rooster")
